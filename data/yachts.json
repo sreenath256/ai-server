@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Galeon 495 HTS",
+    "type": "Luxury Yacht",
+    "manufacturer": "Galeon",
+    "description": "A premium luxury yacht offering spacious interiors, elegant styling, and exceptional comfort for private charters and special events.",
+    "idealFor": [
+      "Birthday Parties",
+      "Corporate Events",
+      "Sunset Cruises",
+      "Private Charters",
+      "Family Gatherings"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Wonder Reel Lounge",
+    "type": "Luxury Yacht",
+    "description": "A stylish charter yacht designed for luxury cruises, celebrations, and unforgettable experiences on the water.",
+    "idealFor": [
+      "Luxury Cruises",
+      "Private Events",
+      "Photography",
+      "Relaxation",
+      "Celebrations"
+    ]
+  }
+]

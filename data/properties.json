@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Vacation Home",
+    "category": "Vacation Home",
+    "location": "United States",
+    "description": "A beautifully designed vacation home offering comfort, style, and premium amenities for families and groups.",
+    "guests": 8,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": [
+      "Wi-Fi",
+      "Air Conditioning",
+      "Smart TV",
+      "Fully Equipped Kitchen",
+      "Free Parking"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Premium Vacation Home",
+    "category": "Vacation Home",
+    "location": "United States",
+    "description": "A modern vacation rental ideal for relaxing getaways and memorable family vacations.",
+    "guests": 6,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": [
+      "Wi-Fi",
+      "Kitchen",
+      "Parking",
+      "Outdoor Space"
+    ]
+  }
+]

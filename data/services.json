@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Vacation Home Rentals",
+    "slug": "vacation-home-rentals",
+    "shortDescription": "Luxury vacation homes designed for comfort, relaxation, and unforgettable stays.",
+    "description": "Stay in carefully selected vacation homes featuring premium amenities, spacious interiors, modern kitchens, high-speed Wi-Fi, comfortable bedrooms, and prime locations throughout the United States.",
+    "features": [
+      "Luxury Bedrooms",
+      "Fully Equipped Kitchen",
+      "High-Speed Wi-Fi",
+      "Smart TV",
+      "Air Conditioning",
+      "Private Parking",
+      "Outdoor Spaces",
+      "Family Friendly"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Yacht Rentals",
+    "slug": "yacht-rentals",
+    "shortDescription": "Private luxury yacht charters for unforgettable experiences on the water.",
+    "description": "Enjoy premium yacht experiences for birthdays, proposals, sunset cruises, corporate events, and private celebrations.",
+    "features": [
+      "Private Charter",
+      "Luxury Interior",
+      "Professional Crew",
+      "Entertainment System",
+      "Premium Seating",
+      "Private Events",
+      "Sunset Cruises",
+      "Water Activities"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Motorhome Rentals",
+    "slug": "motorhome-rentals",
+    "shortDescription": "Travel freely with premium motorhomes equipped with modern comforts.",
+    "description": "Experience the freedom of the open road with fully equipped motorhomes offering comfortable sleeping areas, kitchens, bathrooms, and climate control.",
+    "features": [
+      "Comfortable Beds",
+      "Kitchen",
+      "Bathroom",
+      "Air Conditioning",
+      "Entertainment System",
+      "Storage Space",
+      "Road Trip Ready"
+    ]
+  }
+]
