@@ -1,14 +1,20 @@
+import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
 import OpenAI from "openai";
-
-dotenv.config();
+import bookingsRouter from "./routes/bookings.js";
+import { stripeWebhookHandler } from "./routes/stripeWebhook.js";
 
 const app = express();
 
 app.use(cors());
+
+// Stripe signs the raw request body, so this must be registered before express.json().
+app.post("/api/bookings/stripe/webhook", express.raw({ type: "application/json" }), stripeWebhookHandler);
+
 app.use(express.json());
+
+app.use("/api/bookings", bookingsRouter);
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
