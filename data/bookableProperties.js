@@ -12,6 +12,7 @@ export const BOOKABLE_PROPERTIES = [
   { id: "estate-on-the-lake", title: "Estate on the Lake", price: 750, priceUnit: "night" },
   { id: "galeon-495-hts", title: "Galeon 495 HTS Luxury Yacht", price: 1250, priceUnit: "day" },
   { id: "wonder-real-lounge", title: "Wonder Real Lounge Luxury Motorhome", price: 350, priceUnit: "night" },
+  { id: "blue-party-bus", title: "Blue Party Bus", price: 600, priceUnit: "day" },
 ];
 
 export function getBookableProperty(propertyId) {
